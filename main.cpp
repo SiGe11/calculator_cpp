@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include "bascalc.h"
 
-/* 3 funtions:
-   usrInput - For input the numbers.
-   usrOpInput - For input the opearator.
-   mkCalc - This will makeing the requested operatins.
-   letOutput - Will print the results.
+/* functions:
+   usrInput - is for input the numbers.
+   usrOpInput - is for input the operator.
+   mkCalc - is for the calculating.
+   letOutput - is for printing the results.
 
-   bascalc header has the declartions for these.*/
+   bascalc - is the header with the declartions for these.*/
 
 int main()
 {
@@ -23,7 +23,7 @@ int main()
     std::cin>>begenning;
     if (begenning=="help")
     {
-    std::cout<<"Please give the first number, then press enter; the operator, then press enter; the second number; then press enter."<<std::endl<<"Then you see the result."<<std::endl;
+    std::cout<<"Please give the first number, then press enter; the operator, then press enter; the second number; then press enter."<<std::endl<<"Then you will see the result."<<std::endl;
     firstNumber=usrInput();
     }
     else{
