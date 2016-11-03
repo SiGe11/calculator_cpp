@@ -12,14 +12,15 @@
 
 int main()
 {
-    // Declarations
     long double firstNumber;
     char oOperator;
     long double secondNumber;
     long double result;
     std::string beginning;
 
-    std::cout<<"DorcaLC v0.1"<<std::endl<<"The simple, open source calculator."<<std::endl<<"Type 'help' to see the usage."<<std::endl<<std::endl;
+
+    //Opening "help".
+    std::cout<<"DorcaLC v0.2"<<std::endl<<"The simple, open source calculator."<<std::endl<<"Type 'help' to see the usage."<<std::endl<<std::endl;
     std::cin>>beginning;
     if (beginning=="help")
     {
@@ -41,8 +42,11 @@ int main()
 
     result=mkCalc(firstNumber, oOperator, secondNumber);
 
-    //Print the resolution.
+    //Print the resolut.
     letOutput(result);
+
+    //Possibility to save the result.
+    saveRsl(result);
 
     return 0;
 }
