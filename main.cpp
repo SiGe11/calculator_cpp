@@ -18,9 +18,9 @@ int main()
     long double result;
     std::string beginning;
 
-
+    //TODO Handle non valid inputs.
     //Opening "help".
-    std::cout<<"DorcaLC v0.2"<<std::endl<<"The simple, open source calculator."<<std::endl<<"Type 'help' to see the usage."<<std::endl<<std::endl;
+    std::cout<<"\e[1m"<<"DorCalc"<<"\e[0m"<<" v0.2"<<std::endl<<"The simple, open source calculator."<<std::endl<<std::endl<<"Type 'help' to see the usage."<<std::endl<<std::endl;
     std::cin>>beginning;
     if (beginning=="help")
     {
@@ -28,6 +28,7 @@ int main()
     firstNumber=usrInput();
     }
     else{
+    //Handle if not the "help" which was typed.
     firstNumber = atoi(beginning.c_str());
     }
 
