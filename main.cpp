@@ -20,11 +20,11 @@ int main()
 
     //TODO Handle non valid inputs.
     //Opening "help".
-    std::cout<<"\e[1m"<<"DorCalc"<<"\e[0m"<<" v0.2"<<std::endl<<"The simple, open source calculator."<<std::endl<<std::endl<<"Type 'help' to see the usage."<<std::endl<<std::endl;
+    std::cout<<"\e[1m"<<"DorCalc"<<"\e[0m"<<" v0.2b"<<std::endl<<"The simple, open source calculator."<<std::endl<<std::endl<<"Type \'help\' to see the usage."<<std::endl<<std::endl;
     std::cin>>beginning;
     if (beginning=="help")
     {
-    std::cout<<"Please give the first number, then press enter; the operator, then press enter; the second number; then press enter."<<std::endl<<"Then you will see the result."<<std::endl;
+    std::cout<<"Please give the first number, then press enter; the operator, then press enter; the second number; then press enter.\nThen you will see the result.\n\nPlease make attention to follow the rules. Wrong inputs aren't handled yet."<<std::endl;
     firstNumber=usrInput();
     }
     else{

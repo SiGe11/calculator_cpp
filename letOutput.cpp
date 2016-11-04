@@ -2,5 +2,5 @@
 
 long double letOutput (long double result)
 {
- std::cout << result<<std::endl;
+ std::cout <<"\e[1m"<<result<<"\e[0m"<<std::endl;
 }
