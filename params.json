@@ -1,0 +1,6 @@
+{
+  "name": "DorCalc",
+  "tagline": "Simple calculator to exercising C++.",
+  "body": "Simple calculator to exercising C++.\r\n\r\nIt's a command line tool that allow to make some basic mathematical operations.\r\n\r\nTo compile:\r\ng++ -o dorcalc main.cpp mkCalc.cpp usrInput.cpp usrOpInput.cpp letOutput.cpp bascalc.h\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
