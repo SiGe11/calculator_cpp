@@ -7,6 +7,7 @@
    usrOpInput - is for input the operator.
    mkCalc - is for the calculating.
    letOutput - is for printing the results.
+   saveRsl - is for saveing the results.
 
    bascalc - is the header with the declartions for these.*/
 
@@ -47,6 +48,12 @@ int main()
     letOutput(result);
 
     //Possibility to save the result.
+    //TODO y/N.
+    std::cout<<"Would you like to save the result? (y/n)";
+    char save;
+    std::cin>>save;
+
+    if (save=='y')
     saveRsl(result);
 
     return 0;

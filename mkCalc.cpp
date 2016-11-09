@@ -1,7 +1,9 @@
+#include <iostream>
+
 long double mkCalc (long double x, char z, long double y)
 {
     long double result;
-    //TODO Handle non valid characters.
+
      switch(z)
     {
     case '+' :
@@ -15,6 +17,10 @@ long double mkCalc (long double x, char z, long double y)
         break;
     case '/' :
         result=x/y;
+        break;
+     case ':' :
+        result=x/y;
+    default : std::cout <<z<<" is not a valid operator. (+, -, /, *)"<<std::endl;
         break;
     }
 
