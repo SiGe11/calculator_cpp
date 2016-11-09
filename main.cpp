@@ -21,7 +21,7 @@ int main()
 
     //TODO Handle non valid inputs.
     //Opening "help".
-    std::cout<<"\e[1m"<<"DorCalc"<<"\e[0m"<<" v0.2b"<<std::endl<<"The simple, open source calculator."<<std::endl<<std::endl<<"Type \'help\' to see the usage."<<std::endl<<std::endl;
+    std::cout<<std::endl<<"\e[1m"<<"DorCalc"<<"\e[0m"<<" v0.2b"<<std::endl<<"The simple, open source calculator."<<std::endl<<std::endl<<"Type \'help\' to see the usage."<<std::endl<<std::endl;
     std::cin>>beginning;
     if (beginning=="help")
     {
