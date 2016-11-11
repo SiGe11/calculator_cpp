@@ -37,7 +37,7 @@ int main()
     //Input data.
 
     //firstNumber=usrInput(firstNumber); GIVEN feljebb!
-    oOperator=usrOpInput(oOperator);
+    oOperator=usrOpInput();
     secondNumber=usrInput();
 
     //Make calculations.
